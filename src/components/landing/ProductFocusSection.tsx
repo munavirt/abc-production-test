@@ -101,7 +101,7 @@ export function ProductFocusSection() {
           <p data-animate className="text-xs uppercase tracking-[0.5em] text-muted-foreground font-medium">
             The Essential Tee
           </p>
-          <h2 data-animate className="text-4xl sm:text-5xl lg:text-6xl font-extralight tracking-[-0.03em] leading-[1.05]">
+          <h2 data-animate className="text-4xl sm:text-5xl lg:text-6xl font-['Playfair_Display'] font-medium italic tracking-[-0.03em] leading-[1.05]">
             Crafted for<br />Movement
           </h2>
           <p data-animate className="text-lg text-muted-foreground font-light leading-relaxed max-w-lg">

@@ -35,7 +35,7 @@ export function BrandStatement() {
   return (
     <section className="py-40 lg:py-56 px-6">
       <div ref={ref} className="mx-auto max-w-4xl text-center">
-        <h2 className="text-3xl sm:text-5xl lg:text-6xl font-extralight tracking-[-0.03em] leading-snug">
+        <h2 className="text-3xl sm:text-5xl lg:text-6xl font-['Playfair_Display'] font-medium italic tracking-[-0.03em] leading-snug">
           {"Designed for those who move different.".split(" ").map((word, i) => (
             <span key={i} data-word className="inline-block mr-[0.3em] opacity-0">
               {word}

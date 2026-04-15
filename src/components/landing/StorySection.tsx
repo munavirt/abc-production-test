@@ -81,7 +81,7 @@ export function StorySection() {
           className="absolute inset-0 flex items-center justify-center"
           style={{ background: "rgba(255,255,255,0.6)" }}
         >
-          <h2 className="text-4xl sm:text-6xl lg:text-7xl font-extralight tracking-[-0.04em] text-foreground">
+          <h2 className="text-4xl sm:text-6xl lg:text-7xl font-['Playfair_Display'] font-medium italic tracking-[-0.04em] text-foreground">
             The Details
           </h2>
         </div>
@@ -95,7 +95,7 @@ export function StorySection() {
               {s.label}
             </span>
             <div>
-              <h3 className="text-3xl sm:text-4xl font-light tracking-[-0.02em] mb-4">
+              <h3 className="text-3xl sm:text-4xl font-['Playfair_Display'] font-medium italic tracking-[-0.02em] mb-4">
                 {s.title}
               </h3>
               <p className="text-muted-foreground font-light text-base leading-relaxed max-w-lg">

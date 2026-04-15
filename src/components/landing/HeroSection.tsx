@@ -58,21 +58,21 @@ export function HeroSection() {
 
   return (
     <section ref={sectionRef} className="relative h-[110vh] overflow-hidden">
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 bg-background">
         <video
           ref={videoRef}
           autoPlay
           muted
           loop
           playsInline
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-center"
           src={heroVideo}
           style={{ willChange: "transform" }}
         />
         <div
           ref={overlayRef}
           className="absolute inset-0"
-          style={{ background: "linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 60%, rgba(255,255,255,1) 100%)" }}
+          style={{ background: "linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 15%, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 100%)" }}
         />
       </div>
 
@@ -81,8 +81,8 @@ export function HeroSection() {
           <p className="text-xs uppercase tracking-[0.5em] text-foreground/40 font-medium opacity-0">
             ABC — Premium Essentials
           </p>
-          <h1 className="mt-6 text-5xl sm:text-7xl lg:text-[8rem] font-extralight tracking-[-0.04em] text-foreground leading-[0.9] opacity-0">
-            Not Just Clothing
+          <h1 className="mt-6 text-5xl sm:text-7xl lg:text-[8rem] font-medium italic tracking-tight text-foreground leading-[0.9] opacity-0">
+            Wear What Matter
           </h1>
           <p className="mt-8 text-sm text-foreground/50 max-w-md mx-auto font-light leading-relaxed opacity-0">
             Crafted for those who appreciate the beauty of simplicity

@@ -34,7 +34,7 @@ export function CTASection() {
   return (
     <section className="py-40 lg:py-56 px-6">
       <div ref={ref} className="mx-auto max-w-3xl text-center">
-        <h2 className="text-5xl sm:text-7xl lg:text-8xl font-extralight tracking-[-0.04em] leading-[0.9] opacity-0">
+        <h2 className="text-5xl sm:text-7xl lg:text-8xl font-['Playfair_Display'] font-medium italic tracking-[-0.04em] leading-[0.9] opacity-0">
           Shop Now
         </h2>
         <Link

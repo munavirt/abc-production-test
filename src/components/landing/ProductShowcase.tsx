@@ -55,7 +55,7 @@ export function ProductShowcase() {
       <div className="mx-auto max-w-7xl">
         <div data-heading className="text-center mb-20">
           <p className="text-xs uppercase tracking-[0.5em] text-muted-foreground font-medium mb-4">Curated</p>
-          <h2 className="text-4xl sm:text-5xl font-extralight tracking-[-0.03em]">The Collection</h2>
+          <h2 className="text-4xl sm:text-5xl font-['Playfair_Display'] font-medium italic tracking-[-0.03em]">The Collection</h2>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
           {featured.map((product) => (
